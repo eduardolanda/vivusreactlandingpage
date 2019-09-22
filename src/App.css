@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #22292c;
+  cursor: url("https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png")
+      39 39,
+    auto;
+}
+
+.App-header {
+  margin: auto;
+  letter-spacing: 1px;
+  height: max-content;
+}
+
+.ui.menu {
+  margin: 0;
+  position: fixed;
+  background-color: transparent;
+}
+.ui.menu:not(.vertical) .item {
+  color: white;
+
+  letter-spacing: 1px;
+}
+.ui.menu .active.item {
+  color: white;
+  font-weight: 800;
+}
+
+.svgImage {
+  width: 50vw;
+}
